@@ -1,0 +1,27 @@
+.loginButton {
+  width: 328px;
+  height: 42px;
+  background: #32ABB5;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 22px;
+  box-shadow: 0px 2px 5px 0px #0000001F;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: 0.46px;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 391px) {
+  .loginButton {
+    width: 100%;
+  }
+} 

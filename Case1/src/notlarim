@@ -1,0 +1,8 @@
+...module.css yapısı öğrenildi ve bir fonksiyon gibi başka yerlerde de kullanılabilmeyi sağlayacağı öğrenildi.
+Ana div yapısı kurgulanırken en dıştan içe doğru ilerlenirken ana bir kapsayıcı div oluşturuldu(Login.jsx) bu sayede ana kart yapısı sayfada ortalanabildi.
+CSS kodları yazılırken bazı hatalar alındı(eksik yapılar) ve bu hatalar bazı yapay zeka araçlarıyla istişare edilerek çözüldü.
+Butonun aktifliği (console.log()) ile kontrol edildi.(nasıl test edilebileceği öğrenildi)
+CSS kodlarına bazı yeni öğrenilen gerek dinamiklik gerekte yeni tasarım ögeleri öğrenildi ve eklendi.
+Yazılan kodun sürdürülebilirliği açısından fonksiyonlar kullanıldı(yapayzeka yardımı ile öğrenildi(dinamik yapı için yeni öğrendim.)).
+
+

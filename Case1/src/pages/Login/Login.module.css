@@ -1,0 +1,161 @@
+.grandCard {
+  width: 1000px;
+  height: 600px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  background-image: url('../../case1foto.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: calc(100vw - 40px);
+  max-height: calc(100vh - 40px);
+}
+
+.leftSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-right: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.secondCard {
+  width: 500px;
+  height: 600px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  margin: -2rem;
+}
+
+.loginGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 328px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  gap: 16px;
+}
+
+.loginTitle {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 0px;
+  color: #323232;
+  align-self: flex-start;
+  width: 100%;
+  text-align: left;
+}
+
+.divider {
+  width: 328px;
+  height: 0.80px;
+  background-color: #D0D0D0;
+  flex-shrink: 0;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 16px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (max-width: 391px) {
+  .grandCard {
+    width: 391px;
+    height: 900px;
+    border-radius: 0;
+    padding: 0;
+    background: #E1EFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: none;
+    max-height: none;
+  }
+  
+  .leftSection {
+    display: none;
+  }
+  
+  .secondCard {
+    width: 358px;
+    height: 371px;
+    border-radius: 20px;
+    padding: 60px 20px;
+    margin: 0;
+    background: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .loginGroup {
+    width: 100%;
+    max-width: 328px;
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .loginTitle {
+    font-size: 28px;
+    align-self: flex-start;
+  }
+  
+  .divider {
+    width: 100%;
+  }
+  
+  .inputContainer {
+    width: 100%;
+    gap: 10px;
+  }
+  
+  .buttonContainer {
+    width: 100%;
+  }
+} 

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Ana renkler */
+  --color-primary: #486072;
+  --color-secondary: #FFA300;
+  --color-accent: #688090;
+  
+  /* Arka plan renkleri */
+  --color-background: #E8ECF2;
+  --color-card-background: #FFFFFF;
+  
+  /* Kenarlık renkleri */
+  --color-border: #E8ECF2;
+  
+  /* Gölge renkleri */
+  --color-shadow: #53608A1A;
+  
+  /* Metin renkleri */
+  --color-text-primary: #486072;
+  --color-text-white: #FFFFFF;
+  
+  /* Gradient renkleri */
+  --color-gradient-start: #B3C2D4;
+  --color-gradient-end: #173A47;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Hind';
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100vh;
+  width: 100%;
+}

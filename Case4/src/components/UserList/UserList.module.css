@@ -1,0 +1,230 @@
+.userList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.userCard {
+    width: 220px;
+    height: 350px;
+    background-color: #FAFAFA;
+    border: 1px solid #BABABA;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 0;
+    box-shadow:
+        0px 7px 15px 0px #0000000F,
+        0px 28px 28px 0px #0000000D,
+        0px 62px 37px 0px #00000008,
+        0px 110px 44px 0px #00000003,
+        0px 172px 48px 0px #00000000;
+
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+
+    &:hover {
+        transform: scale(1.05);
+        border: 1px solid #6E6E6E;
+    }
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 12px;
+    flex: 1;
+    overflow: visible;
+}
+
+.ageMailContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+    gap: 0px;
+    flex: 1;
+    overflow: visible;
+}
+
+.totalSpendingcontainer {
+    width: 170px;
+    height: 60px;
+    background-color: #FAFAFA;
+    border: 1px solid #BABABA;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    gap: 5px;
+}
+
+.totalSpending {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 100%;
+    color: #6E6E6E;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0;
+    margin-bottom: 2px;
+}
+
+.spendingAmount {
+    font-weight: 400;
+    font-size: 20px;
+    color: #6E6E6E;
+    line-height: 100%;
+    margin: 0;
+}
+
+
+.Email {
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5;
+    margin: 10px;
+}
+
+.ageLabel {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 100%;
+    color: #6E6E6E;
+    margin: 0;
+    margin-bottom: 2px;
+}
+
+.ageValue {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #6E6E6E;
+    margin: 0;
+}
+
+.emailLabel {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #6E6E6E;
+}
+
+.emailValue {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 100%;
+    color: #6E6E6E;
+}
+
+.name {
+    text-align: left;
+    line-height: 1.5;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.firstName {
+    font-size: 40px;
+    font-weight: 600;
+    color: #6E6E6E;
+    text-align: left;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.lastName {
+    font-size: 35px;
+    font-weight: 400;
+    color: #6E6E6E;
+    text-align: left;
+    margin: 0;
+
+    line-height: 1.2;
+}
+
+.age {
+    width: 100%;
+    margin: 0;
+}
+
+.email {
+    width: 100%;
+    margin: 0;
+}
+
+.userCardSelected {
+    background-color: #FFE6E6 !important;
+    border: 2px solid #FF4444 !important;
+    transform: scale(1.02) !important;
+}
+
+.deleteIconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 68, 68, 0.1);
+    border-radius: 50px;
+}
+
+.deleteIcon {
+    font-size: 80px;
+    color: #FF4444;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgba(255, 68, 68, 0.1);
+}
+
+.deleteIcon:hover {
+    background-color: rgba(255, 68, 68, 0.2);
+    transform: scale(1.1);
+}
+
+.noResultsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.noResultsMessage {
+    font-size: 23px;
+    font-weight: 400;
+    color: #AAAAAA;
+    text-align: center;
+    padding: 40px;
+    background-color: #FAFAFA;
+    border: 1px solid #E0E0E0;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    max-width: 400px;
+}

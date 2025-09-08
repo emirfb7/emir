@@ -42,11 +42,18 @@ module.exports = {
   },
   mode: 'production',
   devServer: {
-    static: {
-      directory: path.join(__dirname, 'src'),
-    },
+    static: [
+      {
+        directory: path.join(__dirname, 'src'),
+        publicPath: '/src'
+      },
+      {
+        directory: path.join(__dirname, 'dist'),
+        publicPath: '/dist'
+      }
+    ],
     compress: true,
-    port: 3000,
+    port: 3001,
     open: true,
     hot: true
   }

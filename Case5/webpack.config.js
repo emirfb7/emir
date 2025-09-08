@@ -40,5 +40,14 @@ module.exports = {
       new CssMinimizerPlugin()
     ]
   },
-  mode: 'production'
+  mode: 'production',
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'src'),
+    },
+    compress: true,
+    port: 3000,
+    open: true,
+    hot: true
+  }
 };

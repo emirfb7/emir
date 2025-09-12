@@ -1,0 +1,29 @@
+.homepage {
+  background-color: var(--bg-primary);
+  min-height: 100vh;
+  padding: var(--padding-lg);
+}
+.logo {
+  margin-left: var(--margin-huge);
+}
+.main-content {
+  /* Ana içerik stilleri buraya eklenecek */
+}
+
+.content-section {
+  padding-bottom: var(--content-bottom-padding); /* Player bar ve navigation için yer */
+}
+
+/* Mobile Layout */
+@media (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+
+  .banner {
+    margin-left: var(--padding-lg);
+    margin-right: var(--padding-lg);
+    justify-content: center;
+    align-items: center;
+  }
+}

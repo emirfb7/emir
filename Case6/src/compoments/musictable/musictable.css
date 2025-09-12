@@ -1,0 +1,217 @@
+.music-table-container {
+  margin-left: var(--margin-huge);
+  margin-right: var(--margin-huge);
+}
+
+.music-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--text-secondary);
+}
+
+.table-header {
+  border-bottom: 1px solid var(--border-primary);
+}
+
+.table-header th {
+  text-align: left;
+  padding: var(--padding-md);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-normal);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wide);
+  color: var(--text-secondary);
+}
+
+.col-number {
+  width: var(--col-number-width);
+}
+
+.col-image {
+  width: var(--col-image-width);
+}
+
+.col-title {
+  width: var(--col-title-width);
+}
+
+.col-album {
+  width: var(--col-album-width);
+}
+
+.col-date {
+  width: var(--col-date-width);
+}
+
+.col-duration {
+  width: var(--col-duration-width);
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.duration-header-icon {
+  width: var(--icon-duration-header);
+  height: var(--icon-duration-header);
+}
+
+.table-row {
+  height: var(--height-track-row);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.table-row:hover {
+  background-color: var(--bg-hover);
+}
+
+.table-row td {
+  padding: var(--padding-md);
+  vertical-align: middle;
+}
+
+.track-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.track-image {
+  width: 40px;
+  height: 40px;
+  background-color: var(--bg-tertiary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-lg);
+  color: var(--text-secondary);
+  border-radius: var(--radius-track-image);
+}
+
+.track-title {
+  color: var(--text-primary);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-normal);
+}
+
+.track-artist {
+  color: var(--text-secondary);
+  font-size: var(--font-size-sm);
+  margin-top: var(--margin-xs);
+}
+
+.duration-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-md);
+}
+
+.music-table .heart-icon {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.duration {
+  color: var(--text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+/* Mobile Layout */
+@media (max-width: 768px) {
+  .music-table-container {
+    margin-left: var(--padding-lg);
+    margin-right: var(--padding-lg);
+    margin-top: var(--margin-xl);
+  }
+
+  .music-table {
+    display: none;
+  }
+
+  .mobile-music-list {
+    display: block;
+  }
+
+  .mobile-music-card {
+    display: flex;
+    align-items: center;
+    padding: var(--padding-md);
+    margin-bottom: var(--gap-sm);
+    background-color: var(--bg-mobile-card);
+    border-radius: var(--radius-mobile-card);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  .mobile-play-icon {
+    width: var(--icon-mobile-play);
+    height: var(--icon-mobile-play);
+    margin-right: var(--padding-sm);
+    cursor: pointer;
+  }
+
+  .mobile-music-card:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .mobile-card-image {
+    width: var(--icon-mobile-card);
+    height: var(--icon-mobile-card);
+    background-color: var(--bg-tertiary);
+    border-radius: var(--radius-track-image);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-lg);
+    color: var(--text-secondary);
+    margin-right: var(--padding-md);
+  }
+
+  .mobile-card-info {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .mobile-card-title {
+    color: var(--text-primary);
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-normal);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: var(--margin-xs);
+  }
+
+  .mobile-card-artist {
+    color: var(--text-secondary);
+    font-size: var(--font-size-sm);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .mobile-card-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--gap-md);
+  }
+
+  .mobile-heart-icon {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+
+  .mobile-duration {
+    color: var(--text-secondary);
+    font-size: var(--font-size-sm);
+  }
+}
+
+/* Desktop Layout */
+@media (min-width: 769px) {
+  .mobile-music-list {
+    display: none;
+  }
+}

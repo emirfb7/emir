@@ -1,0 +1,24 @@
+/* Font styles used in the application */
+:root {
+  /* Font Family */
+  --font-family-primary: Helvetica;
+  
+  /* Font Weights */
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  
+  /* Font Sizes */
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 20px;
+  --font-size-xl: 24px;
+  --font-size-xxl: 54px;
+  
+  /* Line Heights */
+  --line-height-normal: 100%;
+  
+  /* Letter Spacing */
+  --letter-spacing-normal: 0%;
+  --letter-spacing-wide: 1px;
+}

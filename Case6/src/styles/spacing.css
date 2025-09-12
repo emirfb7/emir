@@ -1,0 +1,84 @@
+/* Spacing values used in the application */
+:root {
+  /* Margins */
+  --margin-xs: 4px;
+  --margin-sm: 8px;
+  --margin-md: 15px;
+  --margin-lg: 20px;
+  --margin-xl: 30px;
+  --margin-xxl: 40px;
+  --margin-huge: 145px;
+  
+  /* Paddings */
+  --padding-xs: 4px;
+  --padding-sm: 8px;
+  --padding-md: 15px;
+  --padding-lg: 20px;
+  --padding-xl: 30px;
+  
+  /* Gaps */
+  --gap-xs: 4px;
+  --gap-sm: 8px;
+  --gap-md: 10px;
+  --gap-lg: 12px;
+  --gap-xl: 20px;
+  
+  /* Heights */
+  --height-player-bar: 90px;
+  --height-player-bar-mobile: 80px;
+  --height-track-row: 56px;
+  --height-banner: 200px;
+  --height-progress-bar: 4px;
+  --height-mobile-progress: 4px;
+  
+  /* Widths */
+  --width-banner: 582px;
+  --width-banner-image: 200px;
+  --width-banner-text: 360px;
+  --width-player-left: 300px;
+  --width-player-right: 300px;
+  --width-track-image: 56px;
+  --width-track-image-mobile: 50px;
+  --width-play-button: 56px;
+  --width-progress-max: 400px;
+  --width-volume-max: 93px;
+  --width-volume-bar: 50%;
+  --width-progress-fill: 30%;
+  --width-volume-fill: 60%;
+  
+  /* Icon Sizes */
+  --icon-heart-desktop: 21px;
+  --icon-heart-mobile: 24px;
+  --icon-pause-mobile: 32px;
+  --icon-volume: 16px;
+  --icon-volume-height: 14px;
+  --icon-controls-width: 96px;
+  --icon-controls-height: 32px;
+  --icon-duration-header: 16px;
+  --icon-mobile-play: 24px;
+  --icon-mobile-card: 48px;
+  --icon-playlist-heart: 30px;
+  --icon-playlist-more: 30px;
+  
+  /* Table Column Widths */
+  --col-number-width: 40px;
+  --col-image-width: 60px;
+  --col-title-width: 35%;
+  --col-album-width: 25%;
+  --col-date-width: 20%;
+  --col-duration-width: 100px;
+  
+  /* Border Radius */
+  --radius-progress: 100px;
+  --radius-mobile-progress: 2px;
+  --radius-mobile-card: 8px;
+  --radius-track-image: 4px;
+  
+  /* Z-Index */
+  --z-player-bar: 90;
+  --z-mobile-progress: 100;
+  
+  /* Content Spacing */
+  --content-bottom-padding: 200px;
+  --playlist-bottom-padding: 50px;
+}

@@ -1,0 +1,34 @@
+.banner {
+  width: var(--width-banner);
+  height: var(--height-banner);
+  display: flex;
+  align-items: left-start;
+  justify-content: left-start;
+  gap: var(--gap-xl);
+  margin-top: var(--margin-xxl);
+  margin-left: var(--margin-huge);
+}
+
+
+.square1 {
+  width: var(--width-banner-image);
+  height: var(--width-banner-image);
+  object-fit: contain;
+}
+
+.square2 {
+  width: var(--width-banner-text);
+  height: var(--height-banner);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: var(--font-family-primary);
+  font-weight: var(--font-weight-bold);
+  color: var(--text-primary);
+  font-size: var(--font-size-xxl);
+  line-height: var(--line-height-normal);
+  letter-spacing: var(--letter-spacing-normal);
+  text-align: left;
+}
+
+

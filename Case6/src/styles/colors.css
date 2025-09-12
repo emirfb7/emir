@@ -1,0 +1,28 @@
+/* Colors used in the application */
+:root {
+  /* Background Colors */
+  --bg-primary: #121212;
+  --bg-secondary: #282828;
+  --bg-tertiary: #333;
+  --bg-hover: rgba(255, 255, 255, 0.1);
+  
+  /* Text Colors */
+  --text-primary: #ffffff;
+  --text-secondary: #b3b3b3;
+  
+  
+  /* Border Colors */
+  --border-primary: #4B4B4B;
+  --border-secondary: #535353;
+  
+  /* Progress/Volume Colors */
+  --progress-bg: #535353;
+  --progress-fill: #B3B3B3;
+  
+  /* Mobile Card Colors */
+  --bg-mobile-card: #181818;
+  
+  /* Accent Colors */
+  --accent-green: #1DB954;
+  --accent-teal: #4ecdc4;
+}
